@@ -1,6 +1,6 @@
-# Happy Birthday - Đoàn Hồng Du
+# Happy Birthday
 
-Chào mừng bạn đến với dự án "Happy Birthday - Đoàn Hồng Du"! Đây là một trang web được thiết kế để chúc mừng sinh nhật Đoàn Hồng Du với nhiều tính năng thú vị và giao diện đẹp mắt.
+Chào mừng bạn đến với dự án "Happy Birthday"! Đây là một trang web được thiết kế để chúc mừng sinh nhậtvới nhiều tính năng thú vị và giao diện đẹp mắt.
 
 ## Nội dung dự án
 
@@ -16,7 +16,7 @@ Chào mừng bạn đến với dự án "Happy Birthday - Đoàn Hồng Du"! Đ
 
 1. Clone repository này về máy tính của bạn:
    ```bash
-   git clone https://github.com/yourusername/HappyBirthday-HongDu-10-12-2024.git
+   git clone https://github.com/TrieuPhi/HappyBirthday.git
    ```
 
 2. Mở file `index.html` trong trình duyệt của bạn để xem trang web.
