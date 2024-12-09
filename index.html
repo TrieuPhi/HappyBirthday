@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="icon" href="./icon/happy-birthday.png" type="image/x-icon">
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +20,6 @@
 </head>
 <body>
 
-<!-- Thêm thẻ audio để phát nhạc tự động -->
-<audio autoplay loop muted>
-   <source src="./music/yt1s.com - Count On Me  Bruno Mars LyricsVietsub.mp3" type="audio/mpeg">
-   Your browser does not support the audio element.
-</audio>
 <!-- header section starts  -->
 
 <header class="header">
@@ -83,6 +79,10 @@
 
    <div class="content" data-aos="fade-left" data-aos-delay="300">
       <span>Wish For You!</span>
+      <div class="audio-player">
+         <audio id="audio" src="./music/yt1s.com - Count On Me  Bruno Mars LyricsVietsub.mp3" type="audio/mpeg"></audio>
+         <button class="play-btn" onclick="togglePlay()">Play</button>
+      </div>
       <h3>December 10, 2024</h3>
       <p>Xin chào HDu Thân mến!!!,</p>
 
@@ -175,7 +175,7 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div> -->
-            <h3>Đoàn Hồng Du</h3>
+            <h3>Hồng Du</h3>
             <div class="price">Độc thân =)) </div>
          </div>
       </div>
@@ -372,7 +372,7 @@
 
       <div class="box" data-aos="fade-up" data-aos-delay="150">
          <div class="images">
-            <img src="images/aw1.jpg" alt="">
+            <img src="image/img01.png" alt="">
          </div>
          <div class="content">
             <h3>TOGETHER</h3>
@@ -387,7 +387,7 @@
 
       <div class="box" data-aos="fade-up" data-aos-delay="300">
          <div class="images">
-            <img src="images/aw3.jpg" alt="">
+            <img src="image/img03.png" alt="">
          </div>
          <div class="content">
             <h3>WITH</h3>
@@ -402,7 +402,7 @@
 
       <div class="box" data-aos="fade-up" data-aos-delay="450">
          <div class="images">
-            <img src="images/aw2.jpg" alt="">
+            <img src="image/img02.png" alt="">
          </div>
          <div class="content">
             <h3>LOVE</h3>

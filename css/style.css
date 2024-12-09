@@ -730,4 +730,33 @@ section {
     font-size: 50%;
   }
 }
+
+/* Thêm vào file CSS của bạn */
+.wish-title {
+  display: inline-block; /* Để cho nó nằm ngang với các phần tử khác */
+  margin-right: 10px; /* Khoảng cách giữa tiêu đề và nút */
+  font-size: 24px; /* Kích thước chữ */
+  font-weight: bold; /* Đậm chữ */
+}
+
+.audio-player {
+  display: inline-flex; /* Sử dụng inline-flex để giữ cho nó nằm ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  margin-top: 10px; /* Khoảng cách trên */
+}
+
+.play-btn {
+  background-color: #ff4081; /* Màu nền */
+  color: white; /* Màu chữ */
+  border: none; /* Không có viền */
+  border-radius: 5px; /* Bo góc */
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  font-size: 12px; /* Kích thước chữ */
+  cursor: pointer; /* Con trỏ khi di chuột */
+  transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+  
+.play-btn:hover {
+  background-color: #e91e63; /* Màu nền khi hover */
+}
 /*# sourceMappingURL=style.css.map */

@@ -37,3 +37,17 @@ window.onscroll = () =>{
    document.querySelector('.home .cloud-1').style.right = `${-value}%`;
    document.querySelector('.home .cloud-2').style.left = `${-value}%`;
 };
+
+// Thêm vào file script.js của bạn
+function togglePlay() {
+   const audio = document.getElementById('audio');
+   const playButton = document.querySelector('.play-btn');
+
+   if (audio.paused) {
+      audio.play();
+      playButton.textContent = 'Pause'; // Thay đổi chữ thành Pause
+   } else {
+      audio.pause();
+      playButton.textContent = 'Play Music'; // Thay đổi chữ thành Play
+   }
+}
